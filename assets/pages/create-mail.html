@@ -52,24 +52,7 @@
 <script>
 //files: {fileList: dataString}
 get_id = 0;
-$.ajax({                                      
-      url: 'get-id.php',              
-      type: "post", 
-     // dataType: "json",   
-    // dataType: 'html',      
-      data: {my_id : my_id},
-                     
-      success: function(getid) {
-        get_id = getid.toString();
-        
-         console.log(get_id);
 
-       },
-      error: function(er) {
-        alert('يرجى تسجيل الدخول من خلال اعادة تحميل الصفحة!');
-      } 
-   }); 
- 
     var fileList=[];
     fileList.length = 0;
     //console.log(fileList);
