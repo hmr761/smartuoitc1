@@ -27,7 +27,7 @@ head.appendChild(script);
 
 function load_inside(fname,targ){
 
-if (typeof my_id !== 'undefined') {
+//if (typeof my_id !== 'undefined') {
 //$('.'+targ).empty();
 console.clear();
    // $('.'+targ).load(fname);
@@ -38,9 +38,9 @@ $.get(fname, function(data) {
   // $('.'+targ).append(data);
    $('.'+targ).html(data)
 });
-}else{
-  console.log("You should login!");
-}
+//}else{
+//  console.log("You should login!");
+//}
 }
 
 function load_data(fname,targ){
