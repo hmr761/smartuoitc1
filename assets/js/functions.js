@@ -16,7 +16,7 @@ script = document.createElement(tags);
 script.type = 'text/javascript';
 script.src = urls;
 script.onload = function() { 
-    //alert("Success"); 
+    //alert("Success!"); 
     };
 script.onerror = function(e) { 
     return ("failed: " + JSON.stringify(e)); 
